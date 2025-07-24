@@ -5,7 +5,7 @@ const User = require('../models/User');
 const { sendStatusNotification, sendPdfReport } = require('../config/whatsapp');
 const path = require('path');
 const fs = require('fs');
-const { createCanvas, loadImage } = require('canvas');
+
 const PDFDocument = require('pdfkit');
 
 exports.createLaporan = async (req, res) => {

@@ -17,3 +17,5 @@ Thumbs.db
 
 # Folder upload (jika tidak mau di-push ke GitHub)
 uploads/
+
+.env
