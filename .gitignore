@@ -1,0 +1,19 @@
+# Folder dependencies
+node_modules/
+
+# File konfigurasi environment (isi database, password, dsb)
+.env
+
+# Log files
+*.log
+
+# Cache file (termasuk dari session login)
+*.cache
+*.session
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Folder upload (jika tidak mau di-push ke GitHub)
+uploads/
